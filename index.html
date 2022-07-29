@@ -9,12 +9,38 @@
 </head>
 <body>
     <aside>
-        <a href="javascript:void(0)">Inicio</a>
-        <a href="javascript:void(0)">Contacto</a>
-        <a href="javascript:void(0)">Servicios</a>
-        <a href="javascript:void(0)">Blog</a>
-        <a href="javascript:void(0)">Nosotros</a>
-        <a href="javascript:void(0)">Clientes</a>
+        <a class="tablinks" onclick="openTab(event, 'inicio')">Inicio</a>
+        <a class="tablinks" onclick="openTab(event, 'contacto')">Contacto</a>
+        <a class="tablinks" onclick="openTab(event, 'servicios')">Servicios</a>
+        <a class="tablinks" onclick="openTab(event, 'blog')">Blog</a>
+        <a class="tablinks" onclick="openTab(event, 'nosotros')">Nosotros</a>
+        <a class="tablinks" onclick="openTab(event, 'clientes')">Clientes</a>
     </aside>
+
+    <div id="inicio" class="tab">
+        <h1>Inicio</h1>
+    </div>
+
+    <div id="contacto" class="tab">
+        <h1>Contacto</h1>
+    </div>
+
+    <div id="servicios" class="tab">
+        <h1>Servicios</h1>
+    </div>
+
+    <div id="blog" class="tab">
+        <h1>Blog</h1>
+    </div>
+
+    <div id="nosotros" class="tab">
+        <h1>Nosotros</h1>
+    </div>
+
+    <div id="clientes" class="tab">
+        <h1>Clientes</h1>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
