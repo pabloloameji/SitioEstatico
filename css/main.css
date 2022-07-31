@@ -10,17 +10,20 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
     background-image:linear-gradient(30deg,#0048bd,#44a7fd);
-    border-radius: 25px;
-    padding: 25px;
-    margin: 15px;
-    position: sticky;
+    padding: 50px 25px 50px 25px;
+    width: 100vw;
+    
 }
+
 
 .navtab {
     background-color: #fff;
@@ -37,4 +40,25 @@ nav {
 .navtab:hover {
     background-color: #3f5efb;
     color:#fff;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    margin: 0;
+    border-radius: 0;
+    padding: 1px 25px 1px 25px;
+    transition: 1s;
+}
+
+.sticky + .inicio {
+    padding-top: 60px;
+}
+
+.inicio {
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    height: 25vh;
+    margin: 30px;
 }
