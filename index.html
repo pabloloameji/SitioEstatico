@@ -10,7 +10,11 @@
 </head>
 
 <body>
+    
     <nav id="navbar">
+        <div class="logo">
+            <h1>RetroTec</h1>
+        </div>
         <a href="index.html" class="navtab">Inicio</a>
         <a href="#clientes" class="navtab">Clientes</a>
         <a href="#servicios" class="navtab">Servicios</a>
@@ -18,49 +22,54 @@
         <a href="#nosotros" class="navtab">Nosotros</a>
         <a href="#contacto" class="navtab">Contacto</a>
     </nav>
-
-    <section id="clientes" class="inicio">
-        <h1> Nuestros Clientes </h1>
-        <a href="">
+    
+    <section id="clientes" class="clientes">
+        <h2 class="subtitulo"> Nuestros Clientes </h2>
+        <div class="imgclientes">
             <img src="img/Cliente.jpeg" width="125" height="125" />
-        </a>
-        <a href="">
             <img src="img/Clinica.png" width="125" height="125" />
-        </a>
-        <a href="">
             <img src="img/cliente2.png" width="125" height="125" />
-        </a>
-        <a href="">
             <img src="img/Cliente3.jpeg" width="125" height="125" />
-        </a>
-        <a href="">
             <img src="img/cliente4.jpeg" width="125" height="125" />
-        </a>
-        <a href="">
             <img src="img/cliente5.jpeg" width="125" height="125" />
-        </a>
-        <a href="">
             <img src="img/cliente6.jpg" width="125" height="125" />
-        </a>
-        <a href="">
-            <img src="img/cliente7.png" width="125" height="125" />
-        </a>
-
-
+            <img src="img/cliente7.png" width="125" height="125" />  
+        </div>
+        
     </section>
 
-    <section id="servicios" class="inicio">
-
+    <section class="servicios" id="servicios">
+        <h2 class="subtitulo">Servicios Manejados</h2>
+        <div class="contenedor-servicio">
+            <img src="img/Customer service_Flatline.svg" alt="">
+            <div class="checklist-servicio">
+                <div class="service">
+                    <h3 class="n-service"><span class="number">1</span>Reparacion De videoconsolas, Cartuchos, y accesorios de juegos</h3>
+                </div>
+                <div class="service">
+                    <h3 class="n-service"><span class="number">2</span>Venta de consolas,Juegos y accesoreos</h3>
+                </div>
+                <div class="service">
+                    <h3 class="n-service"><span class="number">3</span>Compra de Consolas y juegos de segunda mano</h3>
+                </div>
+            </div>
+        </div>
     </section>
 
-
-
-    <section id="nosotros" class="inicio">
-
+    <section class="nosotros" id="nosotros">
+        <h2 class="subtitulo">¿Quienes somos?</h2>
+        <div class="contenedor-servicio">
+            <div class="checklist-servicio">
+                <div class="service">
+                    <h3>Somos una compañia dedicada a la comercializacion de productos del mundo Gamer, asi como lo son consolas, videojuegos accesorios etc. Contando con un gran catalogo y un numero importante de clientes somos una empresa lider en el tema de las ventas y distribuciones en la ciudad de medellin dejando huella en el mundo de los videojuegos y la tecnologia </h3>
+                </div>
+            </div>
+            <img src="img/Gaming _Flatline.svg" alt="">
+        </div>
     </section>
 
     <footer id="contacto">
-        <h1> Contactanos </h1>
+        <h2>Contactanos</h2>
         <form>
             <label for="tipos"> Elige un tipo de contacto:</label>
             <select name="Contacto" id="Contacto">
@@ -79,7 +88,7 @@
                 style="WIDTH: 430px; HEIGHT: 150px">
             <br><br>
             <input type="submit" value="Enviar" style="WIDTH: 228px; HEIGHT: 50px">
-
+    
         </form>
     </footer>
 

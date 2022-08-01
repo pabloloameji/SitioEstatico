@@ -13,7 +13,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
+h1 {
+    color: #3f5efb;
+    font-weight: bolder;
+}
+
+
 
 nav {
     display: flex;
@@ -21,9 +29,17 @@ nav {
     background-image:linear-gradient(30deg,#0048bd,#44a7fd);
     padding: 50px 25px 50px 25px;
     width: 100vw;
-    
+    align-items: center;
+    border-radius: 15px;
+}
+.logo h1 {
+    color: #fff;
 }
 
+.logo {
+    margin-right: 30vw;
+    float: left;
+}
 
 .navtab {
     background-color: #fff;
@@ -37,28 +53,124 @@ nav {
     font-weight: bolder;
 }
 
-.navtab:hover {
+.navtablong {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #3f5efb;
+    margin: 5px;
+    padding: 5px;
+    width: 12vw;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navtab:hover, .navtablong:hover {
     background-color: #3f5efb;
     color:#fff;
 }
 
 .sticky {
     position: fixed;
-    top: 0;
-    width: 100vw;
-    margin: 0;
-    border-radius: 0;
-    padding: 1px 25px 1px 25px;
-    transition: 1s;
+    top: 10px;
+    width: 95vw;
+    transition: 2s;
+    padding: 5px;
 }
 
-.sticky + .inicio {
+
+.clientes {
     padding-top: 60px;
+    display: block;
+    text-align: center;
 }
 
-.inicio {
-    background-color: #d4d4d4;
-    border-radius: 10px;
-    height: 25vh;
-    margin: 30px;
+.imgclientes {
+    background-color: rgba(212, 212, 212, 0.5);
+    border-radius: 15px;
+}
+
+img {
+    margin: 50px 10px 50px 10px;
+    border-radius: 15px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: 300;
+    color: #3f5efb;
+    font-size: 40px;
+}
+
+.contenedor-servicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img {
+    width: 40%;
+}
+
+.checklist-servicio {
+    width: 45%;
+}
+
+.servicios {
+    padding: 60px;
+    margin: 50px 20px;
+}
+
+.n-service {
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+
+.number {
+    display: inline-block;
+    background-image:linear-gradient(30deg,#0048bd,#44a7fd);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.nosotros {
+    padding: 60px;
+    background-color: rgba(63, 94, 251, 0.33);
+    width: 90vw;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:linear-gradient(30deg,#0048bd,#44a7fd);
+    width: 100vw;
+    padding: 60px 0 0 0; 
+}
+
+footer h2 {
+    color: #fff;
+    font-weight: bolder;
+}
+
+form {
+    float: right;
+    margin: 50px 0 10px 0;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.blogitem {
+    padding: 60px;
 }
